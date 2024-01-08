@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap');
+
+}
+
+body {
+    /* max-width: 1340px;
+      margin: auto; */
+
+    text-align: center;
+    align-items: center;
+}
+
+
+/* =================== NEW YEAR BANNER ================== */
+
+.head-section {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+
+.head-one {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.head-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    text-align: center;
+    padding: 0 340px;
+}
+
+/*========== MAIN SECTION========== */
+
+main {
+    text-align: center;
+}
+
+.offer {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    padding-top: 120px;
+
+}
+
+.hoilday-deals {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 48px;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+.sticker {
+    width: 802.9px;
+    height: 500px;
+}
+
+
+/* =============== PARTY INVITATION =============== */
+
+.party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.party-sticker {
+    margin-top: 68px;
+    margin-right: 138px;
+    width: 319.83px;
+    height: 464.662px;
+    /* align-items: center;
+    display: block; */
+    /* align-items: center; */
+}
+
+
+.party-welcome {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    text-align: left;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+.party-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 126px;
+    text-align: left;
+    width: 697px;
+}
+
+.join-btn {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.221);
+    padding: 25px 40px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 25px 160px;
+}
+
+.join-btn:hover {
+    background-color: aliceblue;
+    color: #070211;
+
+}
+
+/* =============== PARTY LOCATION ============== */
+
+.time-location {
+    margin: 120px auto;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    color: #070211;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.red-text {
+    color: #F00;
+}
+
+.join-btn-two {
+    margin-top: 64px;
+    padding: 16px 32px;
+    justify-content: center;
+    border: 0;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.join-btn-two:hover{
+    background:rgb(206, 0, 0) ;
+}
+
+
+/* ==================== OUR PORTFOLIO =============== */
+
+
+.portfolio {
+    width: 1320px;
+    margin: auto;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.portfolio-title {
+    margin-top: 16px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 896px;
+    height: 64px;
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+
+.image-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*  width: 1600px; */
+    gap: 24px;
+}
+
+
+/* ====================== NEWSLETTER =================== */
+
+.newsletter {
+    padding-top: 120px;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: 120px auto;
+}
+
+.newsletter>img {
+    width: 150px;
+    height: 150px;
+}
+
+.newsletter-title {
+    margin-top: 40px;
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.newsletter p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 22px auto;
+}
+
+.newsletter-button{
+    padding-top: 26px;
+
+}
+.email-input {
+    /* box design */
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: 0;
+
+    /* text input field */
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.subscribe-btn {
+    height: 72px;
+    width: 210px;
+    margin-left: -5px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.subscribe-btn:hover{
+    background-color: rgb(255, 177, 21);
+    color: #070211;
+}
+
+
+
+
+/* =============FOOTER SECTION=========== */
+
+footer {
+    margin-top: 120px;
+    height: 609px;
+    background: #070211;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.footer-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 375px;
+    height: 80px;
+    margin: 120px auto 50px 140px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.footer-right {
+
+    width: 210px;
+    height: 0px;
+    margin: 120px 291px 50px auto;
+}
+
+.footer-right>p {
+    text-align: left;
+    width: 280px;
+    height: 20px;
+}
+
+.footer-right img {
+    width: 24px;
+    height: 24px;
+    padding-right: 20px;
+}
+
+.social-links {
+    width: 1320px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.social-links a img {
+    padding: 12px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    padding: 50px 140px 120px 140px;
+}
