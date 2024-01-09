@@ -196,9 +196,157 @@ main {
     font-size: 20px;
     font-weight: 700;
 }
-.join-btn-two:hover{
-    background:rgb(206, 0, 0) ;
+
+.join-btn-two:hover {
+    background: rgb(206, 0, 0);
 }
+
+
+/* <!-- ====================BONUS SECTION================ --> */
+
+.bonus-section-one {
+    display: flex;
+    margin: 0 auto;
+    width: 1320px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.left-container {
+    padding-top: 104px;
+
+}
+
+.left-container p {
+    width: 393px;
+    height: 128px;
+}
+
+.middle-container {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 40px;
+}
+
+.right-container {
+    text-align: left;
+    padding-top: 112px;
+}
+
+.right-container-title {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.right-container p {
+    width: 276px;
+}
+
+.right-container img {
+    height: 140px;
+    width: 140px;
+}
+
+/* ===============BONUS SECTION TWO============== */
+
+
+.bonus-section-two {
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.bonus-section-two h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.bonus-section-two h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.red-title {
+    color: #F00;
+}
+
+.bonus-section-two p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    margin: 28px auto;
+}
+
+.decorative-items {
+    display: flex;
+    /* justify-content:space-evenly; */
+    /* flex-wrap: wrap; */ 
+    /* gap: 0; */
+    justify-content: space-between;
+    margin-top: 64px;
+   
+}
+.decorative-item-right{
+
+}
+.mystery-box {
+    position: relative;
+    z-index: 1;
+
+ 
+}
+
+.discount-logo {
+ position: relative;
+ z-index: 1;
+ top: 180px;
+ right: 170px
+}
+
+.girl {
+    position: relative;
+    bottom: 197px;
+    left: 47px;
+
+}
+
+.decorative-item-bottom {
+    position: relative;
+    bottom: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ==================== OUR PORTFOLIO =============== */
@@ -285,10 +433,11 @@ main {
     margin: 22px auto;
 }
 
-.newsletter-button{
+.newsletter-button {
     padding-top: 26px;
 
 }
+
 .email-input {
     /* box design */
     width: 438px;
@@ -323,7 +472,7 @@ main {
     text-decoration: none;
 }
 
-.subscribe-btn:hover{
+.subscribe-btn:hover {
     background-color: rgb(255, 177, 21);
     color: #070211;
 }
